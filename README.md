@@ -1,2 +1,2 @@
 # homebrew-tosa
-A Homebrew formula for kyoshidajp/tosa
+A Homebrew formula for [kyoshidajp/tosa](https://github.com/kyoshidajp/tosa)
