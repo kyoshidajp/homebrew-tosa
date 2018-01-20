@@ -4,11 +4,11 @@ class Tosa < Formula
   version 'v0.0.3'
 
   if Hardware::CPU.is_64_bit?
-    url "https://github.com/kyoshidajp/tosa/releases/download/v0.0.3/tosa_darwin_amd64.zip"
-    sha256 "dbe3873436b5b32b170021fc2b4bce48075575c6c9413c6784e79c39ac622e17"
+    url "https://github.com/kyoshidajp/tosa/releases/download/0.0.2/tosa_darwin_amd64.zip"
+    sha256 "13c2767015cd2393da82e35ffae658377df2de05deb825a796b2bfaf8a716200"
   else
-    url "https://github.com/kyoshidajp/tosa/releases/download/v0.0.3/tosa_darwin_386.zip"
-    sha256 "ae9091eafa847185727ba3b60e2a619b148251075ff16b667f8666c687c87805"
+    url "https://github.com/kyoshidajp/tosa/releases/download/0.0.2/tosa_darwin_386.zip"
+    sha256 "93f276564a8d11393316315af83b89671b9e280226fe45e0d59d33615e788dc9"
   end
 
   def install
