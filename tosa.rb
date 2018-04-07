@@ -1,14 +1,14 @@
 class Tosa < Formula
   desc "Open Pull request page from commit hash tool"
   homepage "https://github.com/kyoshidajp/tosa"
-  version 'v0.0.3'
+  version 'v1.0.0'
 
   if Hardware::CPU.is_64_bit?
-    url "https://github.com/kyoshidajp/tosa/releases/download/v0.0.3/tosa_darwin_amd64.zip"
-    sha256 "13c2767015cd2393da82e35ffae658377df2de05deb825a796b2bfaf8a716200"
+    url "https://github.com/kyoshidajp/tosa/releases/download/v1.0.0/tosa_darwin_amd64.zip"
+    sha256 "70ceb0f0a5abcab2bdb7c9ffd46b68c2d22bafaadb4fbb89796f4aadd9bc57fa"
   else
-    url "https://github.com/kyoshidajp/tosa/releases/download/v0.0.3/tosa_darwin_386.zip"
-    sha256 "93f276564a8d11393316315af83b89671b9e280226fe45e0d59d33615e788dc9"
+    url "https://github.com/kyoshidajp/tosa/releases/download/v1.0.0/tosa_darwin_386.zip"
+    sha256 "def9dea7d5d757499cfe2593af8a6da68debf6ca4c50c8c7d27846b0e9d95ab2"
   end
 
   def install
